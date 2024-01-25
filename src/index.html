@@ -22,19 +22,21 @@
     <form class="form">
       <label class="form__field">
         <input
-          class="form__input form__value-input"
+          class="form__input"
           id="value-input"
           type="number"
           min="0"
           max="100"
+          step="any"
           placeholder="%"
         ></input>
         <span class="form__field-text">Value</span>
+        <span class="form__field-error form__field-error_id_value-input"></span>
       </label>
 
       <label class="form__field">
         <input
-          class="form__checkbox form__animate-checkbox"
+          class="form__checkbox"
           id="animate-checkbox"
           type="checkbox"
           tabindex="0"
@@ -45,7 +47,7 @@
 
       <label class="form__field">
         <input
-          class="form__checkbox form__hide-checkbox"
+          class="form__checkbox"
           id="hide-checkbox"
           type="checkbox"
           tabindex="0"

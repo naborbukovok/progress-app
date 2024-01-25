@@ -1,0 +1,13 @@
+.form__field-error {
+  margin: 0;
+  padding: 0;
+  width: 56px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #F91155;
+  position: absolute;
+  bottom: 6px;
+  left: 100%;
+  visibility: hidden;
+}

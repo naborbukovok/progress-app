@@ -16,11 +16,21 @@ export default class Progress {
   }
 
   setValue(value) {
+    if (typeof value !== "number" || Number.isNaN(value) || value > 100 || value < 0) {
+      console.log("Progress: wrong value");
+      return;
+    }
+
     const offset = this._circumference - (value / 100) * this._circumference;
     this._valueElement.style.strokeDashoffset = offset;
   }
 
   setIsAnimated(isAnimated) {
+    if (typeof isAnimated !== "boolean") {
+      console.log("Progress: wrong value");
+      return;
+    }
+
     if (isAnimated) {
       this._isAnimated = true;
       this._element.classList.add("progress_animated");
@@ -31,6 +41,11 @@ export default class Progress {
   }
 
   setIsHidden(isHidden) {
+    if (typeof isHidden !== "boolean") {
+      console.log("Progress: wrong value");
+      return;
+    }
+
     if (isHidden) {
       this._isHidden = true;
       this._element.classList.add("progress_hidden");

@@ -1,4 +1,4 @@
-import './index.css'; 
+import "./index.css"; 
 
 import Progress from "../components/Progress.js";
 import Form from "../components/Form.js";
@@ -22,11 +22,18 @@ const progress = new Progress({
 });
 
 const form = new Form({
-  formSelector: ".form",
+  selectors: {
+    selector: ".form",
+    errorSelector: ".form__field-error"
+  },
   inputs: {
     valueInputId: "value-input",
     animateCheckboxId: "animate-checkbox",
     hideCheckboxId: "hide-checkbox"
+  },
+  errorClasses: {
+    inputTypeErrorClass: "form__input_type_error",
+    fieldErrorActiveClass: "form__field-error_active"
   },
   eventHandlers: {
     handleValueInputChange: (value) => {
