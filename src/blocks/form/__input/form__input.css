@@ -1,0 +1,26 @@
+.form__input {
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+.form__input::-webkit-inner-spin-button,
+.form__input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 2px solid #005CFF;
+}

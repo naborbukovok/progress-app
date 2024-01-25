@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  align-items: center;
+  gap: 92px;
+  position: relative;
+  padding-bottom: 32px;
+}
+
+@media screen and (orientation: portrait){
+  .main {
+    flex-direction: column;
+  }
+}

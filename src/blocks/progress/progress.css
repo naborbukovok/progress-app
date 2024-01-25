@@ -1,0 +1,4 @@
+.progress {
+  transform-origin: center;
+  transform: rotate(-90deg);
+}

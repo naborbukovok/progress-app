@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  src: url("fonts/PlusJakartaSans-SemiBold.woff") format("woff"),
+  url("fonts/PlusJakartaSans-SemiBold.woff2") format("woff2");
+}
