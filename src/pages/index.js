@@ -37,7 +37,7 @@ const form = new Form({
   },
   eventHandlers: {
     handleValueInputChange: (value) => {
-      progress.setValue(value)
+      progress.setValue(Number(value));
     },
     handleAnimateCheckboxClick: () => {
       progress.toggleIsAnimated();

@@ -27,7 +27,7 @@ export default class Progress {
 
   setIsAnimated(isAnimated) {
     if (typeof isAnimated !== "boolean") {
-      console.log("Progress: wrong value");
+      console.log("Progress: wrong isAnimated");
       return;
     }
 
@@ -42,7 +42,7 @@ export default class Progress {
 
   setIsHidden(isHidden) {
     if (typeof isHidden !== "boolean") {
-      console.log("Progress: wrong value");
+      console.log("Progress: wrong isHidden");
       return;
     }
 

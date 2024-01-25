@@ -10,9 +10,8 @@
 @import url('../blocks/main/main.css');
 
 @import url('../blocks/progress/progress.css');
-@import url('../blocks/progress/_animated/progress_animated.css');
-@import url('../blocks/progress/_hidden/progress_hidden.css');
-/* ??? */
+@import url('../blocks/progress/progress_animated.css');
+@import url('../blocks/progress/progress_hidden.css');
 @import url('../blocks/progress/__background/progress__background.css');
 @import url('../blocks/progress/__value/progress__value.css');
 
