@@ -56,7 +56,6 @@ export default class Form {
   }
 
   _showInputError(inputElement, errorMessage) {
-    
     const errorElement = this._element.querySelector(`${this._errorSelector}_id_${inputElement.id}`);
     inputElement.classList.add(this._inputTypeErrorClass);
     errorElement.classList.add(this._fieldErrorActiveClass);

@@ -35,7 +35,7 @@
 }
 
 .form__checkbox:checked + .form__pseudo-checkbox::before {
-  background-color: #005CFF;
+  background-color: #005BFF;
 }
 
 .form__checkbox:checked + .form__pseudo-checkbox::after {
